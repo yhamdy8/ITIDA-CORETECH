@@ -1,0 +1,48 @@
+@startuml
+title Bank Server - Client
+
+participant Client
+participant Server
+participant Database 
+
+
+
+alt logging as admin
+    Client -> Server: login()
+    Server -> Database: CheckLogin()
+    loop
+    alt if admin is not found
+        Database -> Server : NotFound()
+        Server -> Client: Admin_Not_Found_Login_Again
+    else if admin is found
+          Database -> Server: isFound
+          Server -> Client: admin_start()
+          break
+       
+    end
+    end
+    Client -> Server: SendRequest
+    Server -> Database: Receive_Data
+    Database -> Server: Return_Data
+    Server -> Client : Data()
+
+else logging as user
+Client -> Server: login()
+    Server -> Database: CheckLogin()
+    loop
+    alt if user is not found
+        Database -> Server : NotFound()
+        Server -> Client: User_Not_Found_Login_Again
+    else if User is  found
+        Database -> Server: isFound
+        Server -> Client: User_start()
+        break
+    end
+    end
+    Client -> Server: SendRequest
+    Server -> Database: Receive_Data
+    Database -> Server: Return_Data
+    Server -> Client : Data()
+end
+end
+end
