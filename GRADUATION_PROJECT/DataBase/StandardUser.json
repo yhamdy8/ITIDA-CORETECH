@@ -1,0 +1,65 @@
+{
+    "Adel": {
+        "Account Number": "1",
+        "Age": "15",
+        "Balance": "500",
+        "Full Name": "Mohamed Adel",
+        "Password": "11111",
+        "Transaction History": [
+            {
+                "Amount": "+400",
+                "Date": "2024-01-07 13:08:53"
+            },
+            {
+                "Amount": "-200",
+                "Date": "2024-01-07 13:08:04"
+            },
+            {
+                "Amount": "+300",
+                "Date": "2024-01-05 20:58:56"
+            },
+            {
+                "Amount": "-500",
+                "Date": "2024-01-05 20:27:58"
+            },
+            {
+                "Amount": "+500",
+                "Date": "2024-01-05 16:03:49"
+            },
+            {
+                "Amount": "-500",
+                "Date": "2024-01-04 17:56:44"
+            },
+            {
+                "Amount": "+300",
+                "Date": "2024-01-04 17:53:52"
+            }
+        ]
+    },
+    "Ghada": {
+        "Account Number": "18182601964495583399",
+        "Age": "23",
+        "Balance": "700",
+        "Full Name": "Ghada Ashraf",
+        "Password": "22222",
+        "Transaction History": [
+            {
+                "Amount": "+200",
+                "Date": "2024-01-07 13:08:04"
+            }
+        ]
+    },
+    "Rana": {
+        "Account Number": "2",
+        "Age": "24",
+        "Balance": "1000",
+        "Full Name": "Rana xyz",
+        "Password": "11111",
+        "Transaction History": [
+            {
+                "Amount": "+500",
+                "Date": "2024-01-05 20:27:58"
+            }
+        ]
+    }
+}

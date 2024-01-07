@@ -1,0 +1,20 @@
+{
+    "Admin": {
+        "Account Number": "1",
+        "Age": "0",
+        "Full Name": "Admin",
+        "Password": "Admin"
+    },
+    "Shawky": {
+        "Account Number": "593068918649134384",
+        "Age": "25",
+        "Full Name": "Ahmed Shawky",
+        "Password": "1212"
+    },
+    "youssef": {
+        "Account Number": "2",
+        "Age": "26",
+        "Full Name": "Youssef Hamdy",
+        "Password": "12345"
+    }
+}
